@@ -8,12 +8,14 @@ import com.bosing.unimed.ws.exceptions.ValidaException;
 import com.bosing.unimed.ws.model.Medico;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
+import jakarta.jws.WebService;
 
 
 /**
  *
  * @author muril
  */
+@WebService
 public interface MedicoWebService {
    
    @WebMethod

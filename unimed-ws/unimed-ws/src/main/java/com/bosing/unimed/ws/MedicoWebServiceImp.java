@@ -9,24 +9,11 @@ import com.bosing.unimed.ws.interfaces.MedicoWebService;
 import com.bosing.unimed.ws.model.Medico;
 import com.bosing.unimed.ws.service.MedicoService;
 import jakarta.jws.WebService;
-import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
-/**
- *
- * @author Dzkyy
- */
 
 @WebService(endpointInterface = "com.bosing.unimed.ws.interfaces.MedicoWebService")
 public class MedicoWebServiceImp implements MedicoWebService{
 
-    /**
-     *
-     * @param id
-     * @return
-     * @throws ValidaException
-     */
     @Override
     public Medico findById(int id) throws ValidaException  {
              MedicoService medicoService = new MedicoService();
