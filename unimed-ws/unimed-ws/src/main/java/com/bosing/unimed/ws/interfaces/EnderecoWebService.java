@@ -4,25 +4,28 @@
  */
 package com.bosing.unimed.ws.interfaces;
 
+import com.bosing.unimed.ws.exceptions.ValidaException;
 import com.bosing.unimed.ws.model.Endereco;
 import jakarta.jws.WebMethod;
+import jakarta.jws.WebService;
 import java.sql.SQLException;
 
 /**
  *
  * @author muril
  */
+@WebService
 public interface EnderecoWebService {
     
    @WebMethod
-   Endereco findById(int id) throws SQLException;
+   Endereco findById(int id) throws ValidaException;
    
    
    @WebMethod
-   Endereco insert(Endereco endereco) throws SQLException;
+   Endereco insert(Endereco endereco) throws ValidaException;
    
    @WebMethod
-   Endereco update(Endereco endereco)throws SQLException;
+   void update(int id);
    
    @WebMethod
    void delete (int id);

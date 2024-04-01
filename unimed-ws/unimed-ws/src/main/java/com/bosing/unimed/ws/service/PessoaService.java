@@ -17,15 +17,18 @@ import java.util.ArrayList;
 public class PessoaService {
     
      private String nome;
-    public ArrayList<Pessoa> lisAll() throws SQLException{
+    public ArrayList<Pessoa> listAll() throws SQLException{
         PessoaRepository pessoaRepository = new PessoaRepository();
         return pessoaRepository.listAll();
     }
     
-        public ArrayList<Pessoa> fiPessoa(){
+        public ArrayList<Pessoa> findPessoa(){
        PessoaRepository pessoaRepository = new PessoaRepository();
         return pessoaRepository.findPessoa(nome);
     }
+        
+        
+        
         public Pessoa findById(int id) throws ValidaException{
         try{
             PessoaRepository pessoaRepository = new PessoaRepository();
@@ -46,13 +49,8 @@ public class PessoaService {
     }
         
         
-        public Pessoa update(Pessoa pessoa) throws ValidaException{
-        try{
+        public void update(int id) throws ValidaException{
             PessoaRepository pessoaRepository = new PessoaRepository();
-            return pessoaRepository.update(pessoa);
-        }catch(SQLException ex){
-            throw new ValidaException("Erro update");
-        }
     }
                 
         public int delete(int Id) throws ValidaException{

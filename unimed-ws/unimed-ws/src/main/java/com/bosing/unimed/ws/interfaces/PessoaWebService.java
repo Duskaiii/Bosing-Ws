@@ -4,8 +4,11 @@
  */
 package com.bosing.unimed.ws.interfaces;
 
-import com.bosing.unimed.ws.model.Paciente;
+import com.bosing.unimed.ws.exceptions.ValidaException;
+import com.bosing.unimed.ws.model.Pessoa;
 import jakarta.jws.WebMethod;
+import jakarta.jws.WebParam;
+import jakarta.jws.WebService;
 import java.sql.SQLException;
 
 
@@ -13,18 +16,19 @@ import java.sql.SQLException;
  *
  * @author muril
  */
+@WebService
 public interface PessoaWebService {
    
    @WebMethod
-   Paciente findById(int id) throws SQLException;
+   Pessoa findById(@WebParam int id) throws ValidaException;
    
    
    @WebMethod
-   Paciente inserir(Paciente paciente) throws SQLException;
+   Pessoa insert(Pessoa pessoa) throws ValidaException;
    
    @WebMethod
-   Paciente atualizar(Paciente paciente)throws SQLException;
+   void update(int id);
    
    @WebMethod
-   void deletar (int id);
+   void delete (int id);
 }

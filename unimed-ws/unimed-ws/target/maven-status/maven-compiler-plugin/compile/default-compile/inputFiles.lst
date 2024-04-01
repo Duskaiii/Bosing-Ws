@@ -1,3 +1,4 @@
+C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\EnderecoWebServiceImp.java
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\service\PacienteService.java
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\model\Pessoa.java
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\service\PessoaService.java
@@ -8,7 +9,9 @@ C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\repositories\EnderecoRepository.java
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\service\EnderecoService.java
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\interfaces\PessoaWebService.java
+C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\PessoaWebServiceImp.java
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\interfaces\EnderecoWebService.java
+C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\PacienteWebServiceImp.java
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\interfaces\MedicoWebService.java
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\interfaces\PacienteWebService.java
 C:\Users\Dzkyy\Documents\NetBeansProjects\unimed-ws\unimed-ws\src\main\java\com\bosing\unimed\ws\repositories\PacienteRepository.java
